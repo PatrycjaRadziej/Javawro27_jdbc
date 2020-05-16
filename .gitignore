@@ -3,3 +3,7 @@
 # 2. drugi commit, dopisania linia poniżej, żeby dowolne zmiany
 #       które zachodzą później (m. in. dopasowanie wartości) nie były
 #       zapisane na git (wyciek hasełek)
+src/main/resources/jdbc.properties
+.idea/
+target/
+*.iml
