@@ -1,16 +1,17 @@
 package com.javawro27.jdbc;
 import com.javawro27.jdbc.model.Student;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-//
+
 //        MysqlConnectionParameters mcp = new MysqlConnectionParameters();
 //        System.out.println("LOGIN: " + mcp.getUsername());
 //        System.out.println("Hasło: "+ mcp.getPassword());
-
-//          com.javawro27.jdbc.model.StudentDao dao = new StudentDao();
+//
+//          StudentDao dao = new StudentDao();
 //
 //        Student student = com.javawro27.jdbc.model.Student.builder()
 //                .firstName("Pawel")
@@ -20,9 +21,9 @@ public class Main {
 //                .age(25)
 //                .build();
 //
-////        dao.addToDatabase(student);
-////        List<Student> studentList = dao.getAllStudents();
-////        studentList.forEach(System.out::println);
+//        dao.addToDatabase(student);
+//        List<Student> studentList = dao.getAllStudents();
+//       studentList.forEach(System.out::println);
 ////
 ////        Student studentToUpdate = com.javawro27.jdbc.model.Student.builder()
 ////                .firstName("Pawel")
